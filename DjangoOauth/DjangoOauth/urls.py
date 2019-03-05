@@ -19,12 +19,12 @@ from django.urls import path
 from django.conf.urls import url, include
 from django.contrib import admin
 from django.contrib.auth import views
-# from social.views import home
+from social.views import home
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^login/$', views.LoginView.as_view(), name='login'),
     url(r'^logout/$', views.logout_then_login, name='logout'),
     url(r'^auth/', include('social_django.urls', namespace='social')),
-    # url(r'^$', home, name='home'),
+    url(r'^$', home, name='home'),
 ]
