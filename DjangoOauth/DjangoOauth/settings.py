@@ -137,6 +137,10 @@ STATIC_URL = '/static/'
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'home' 
 
-##Client ID and Secret Id
+##Google Client ID and Secret Id
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY ='77383913849-js9lqrtvfr3q6b1d764jnmsdoo9aovnc.apps.googleusercontent.com'  
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'gz3M-AxREgRzB30hqZnMx2eL' 
+
+##GitHub client id and secret
+SOCIAL_AUTH_GITHUB_KEY = "6205d5fb7abe0187cd60"
+SOCIAL_AUTH_GITHUB_SECRET = "6bf082d9cfca420fd79607b31018cc562399d0ff"
