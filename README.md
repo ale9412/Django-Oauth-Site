@@ -1,2 +1,2 @@
 # Django-Oauth-Site
-Demio site to use Django-Oauth authentication
+Demo site to use Django-Oauth authentication
